@@ -33,6 +33,7 @@ if (!function_exists('kwp_theme_setup')) :
 
 		// Contact Form 7
 		require_once get_stylesheet_directory() . '/inc/cf7/programa.php';
+		require_once get_stylesheet_directory() . '/inc/cf7/crm.php';
 
 	};
 
