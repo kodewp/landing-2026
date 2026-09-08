@@ -31,6 +31,9 @@ if (!function_exists('kwp_theme_setup')) :
 		// Add CPT
 		require_once get_stylesheet_directory() . '/inc/cpt/programa.php';
 
+		// Contact Form 7
+		require_once get_stylesheet_directory() . '/inc/cf7/programa.php';
+
 	};
 
 endif;
