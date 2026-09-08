@@ -28,6 +28,9 @@ if (!function_exists('kwp_theme_setup')) :
 		// Remove <p> tags
 		add_filter('wpcf7_autop_or_not', '__return_false');
 
+		// Add CPT
+		require_once get_stylesheet_directory() . '/inc/cpt/programa.php';
+
 	};
 
 endif;
